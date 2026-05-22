@@ -147,32 +147,65 @@ Among the tested conditions:
 
 This demonstrates the strong dependence of supercontinuum generation efficiency on ultrashort pulse duration and nonlinear interaction strength.
 
-### Temporal Propagation Along Waveguide
+### Pulse and Spectral Propagation Along Waveguide
 
-Pulse evolution as a function of propagation distance.
+Evolution of both the temporal pulse profile and optical spectrum during propagation inside the nonlinear waveguide.
 
-![Propagation Time Domain](images/propagation_time_domain.png)
-
-Observed:
-- Pulse compression
-- Nonlinear pulse dynamics
-- Evolution of temporal envelope
+The left panel shows the temporal evolution of the pulse envelope along propagation distance, while the right panel shows the corresponding spectral evolution.
 
 ---
 
-### Spectral Broadening Along Propagation
+#### Pulse Duration = 300 fs
 
-Evolution of optical spectrum during propagation.
-
-![Propagation Spectrum](images/propagation_spectrum.png)
-
-Observed:
-- Progressive bandwidth expansion
-- Supercontinuum formation
-- Dispersion–nonlinearity interaction
+![Propagation](sg_good_p=0.5kW_dur=300fs_page-0001.jpg)
 
 ---
 
+#### Pulse Duration = 200 fs
+
+![Propagation](sg_good_p=0.5kW_dur=200fs_page-0001.jpg)
+
+---
+
+#### Pulse Duration = 100 fs
+
+![Propagation](sg_good_p=0.5kW_dur=100fs_page-0001.jpg)
+
+---
+
+### Observations
+
+#### Temporal Evolution
+
+- The temporal pulse envelope remains nearly unchanged during propagation.
+- Limited temporal compression or broadening is observed.
+- Pulse energy remains largely confined within the initial temporal window.
+- Dispersion effects are not dominant enough to significantly reshape the pulse duration.
+
+#### Spectral Evolution
+
+- Strong spectral broadening occurs during propagation.
+- The generated spectrum expands progressively as pulse duration decreases.
+- The shortest pulse (100 fs) produces the widest optical bandwidth.
+- Nonlinear phase accumulation becomes stronger for shorter pulses.
+
+---
+
+## Conclusion
+
+The simulations indicate that pulse propagation in the waveguide is dominated primarily by nonlinear spectral dynamics rather than temporal reshaping.
+
+Although the temporal profile remains approximately preserved along propagation, substantial spectral broadening is observed.
+
+Reducing the input pulse duration from:
+
+- **300 fs → moderate spectral expansion**
+- **200 fs → increased spectral broadening**
+- **100 fs → strongest spectral broadening**
+
+Shorter pulses possess higher peak intensity, which enhances nonlinear effects such as self phase modulation (SPM). This increases frequency generation efficiency and leads to broader supercontinuum spectra while maintaining an almost unchanged temporal envelope.
+
+These results demonstrate that shorter ultrashort pulses are more effective for broadband supercontinuum generation in integrated nonlinear waveguides.
 ## Requirements
 
 Install dependencies:
@@ -207,6 +240,7 @@ python SC_on_chip_best_khan.py
 ## Author
 
 Mohammad Anas Khan
+ICB Dijon
 
 ICB Dijon 
 Internship in Ultrafast Photonics and Waveguide Optics
