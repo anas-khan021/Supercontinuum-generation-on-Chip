@@ -87,12 +87,22 @@ The simulation alternates between:
 ### Pulse Evolution
 
 Comparison between input and output temporal pulse profiles.
+At Power P = 0.5kW
+Pulse duration = 100fs
 
-![Pulse Evolution](sg_good_p=0.5kW_dur=100fs_page-0001.jpg)
+![Pulse Evolution](pulse_spectrum_good_p=0.5kW_page-0001.jpg)
+
+Pulse duration = 200fs
+
+![Pulse Evolution](pulse_spectrum_good_p=0.5kW_page-0001.jpg)
+
+Pulse duration = 300fs
+
+![Pulse Evolution](pulse_spectrum_good_p=0.5kW_page-0001.jpg)
 
 Observed:
 - Pulse reshaping
-- Temporal compression/broadening
+- Temporal compression
 - Nonlinear temporal dynamics
 
 ---
@@ -107,7 +117,6 @@ Observed:
 - Nonlinear frequency conversion
 
 ---
-Here the characteristics of the pulse is P=0.5kW, dur=200fs
 
 ### Temporal Propagation Along Waveguide
 
