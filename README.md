@@ -94,11 +94,11 @@ Pulse duration = 100fs
 
 Pulse duration = 200fs
 
-![Pulse Evolution](pulse_spectrum_good_p=0.5kW_page-0001.jpg)
+![Pulse Evolution](pulse_spectrum_good_p=0.5kW_dur=200fs_page-0001.jpg)
 
 Pulse duration = 300fs
 
-![Pulse Evolution](pulse_spectrum_good_p=0.5kW_page-0001.jpg)
+![Pulse Evolution](pulse_spectrum_good_p=0.5kW_dur=300fs_page-0001.jpg)
 
 Observed:
 - Pulse reshaping
