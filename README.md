@@ -81,7 +81,23 @@ The simulation alternates between:
 3. Iterative propagation along the device
 
 ---
+## Simulation Architecture
 
+Schematic of the complete laser and propagation setup used in the simulation.
+
+![Laser Setup](laser_setup_mm.png)
+
+The simulation models ultrashort pulse propagation from the input laser source through fiber and integrated nonlinear waveguide sections.
+
+Main components:
+
+- Input ultrashort pulse
+- Single Mode Fiber (SMF)
+- Nonlinear Waveguide
+- Dispersion engineering
+- Output spectral characterization
+
+---
 ## Results
 
 ### Pulse Evolution
