@@ -88,7 +88,7 @@ The simulation alternates between:
 
 Comparison between input and output temporal pulse profiles.
 
-![Pulse Evolution](pulse+spectrum_good_p=0.5kW, dur=200fs.png)
+![Pulse Evolution](pulse+spectrum_good_p=0.5kW, dur=200fs.pdf)
 
 Observed:
 - Pulse reshaping
