@@ -86,37 +86,66 @@ The simulation alternates between:
 
 ### Pulse Evolution
 
-Comparison between input and output temporal pulse profiles.
-At Power P = 0.5kW
-Pulse duration = 100fs
+Comparison between input and output temporal pulse profiles for different initial pulse durations at a fixed peak power.
 
-![Pulse Evolution](pulse_spectrum_good_p=0.5kW_page-0001.jpg)
+Simulation condition:
 
-Pulse duration = 200fs
+- Peak Power: **P = 0.5 kW**
 
-![Pulse Evolution](pulse_spectrum_good_p=0.5kW_dur=200fs_page-0001.jpg)
+---
 
-Pulse duration = 300fs
+#### Pulse Duration = 300 fs
 
 ![Pulse Evolution](pulse_spectrum_good_p=0.5kW_dur=300fs_page-0001.jpg)
 
-Observed:
-- Pulse reshaping
-- Temporal compression
-- Nonlinear temporal dynamics
+---
+
+#### Pulse Duration = 200 fs
+
+![Pulse Evolution](pulse_spectrum_good_p=0.5kW_dur=200fs_page-0001.jpg)
+
+---
+
+#### Pulse Duration = 100 fs
+
+![Pulse Evolution](pulse_spectrum_good_p=0.5kW_page-0001.jpg)
+
+---
+
+### Observations
+
+- Pulse reshaping occurs during propagation due to nonlinear interactions.
+- Shorter pulses experience stronger nonlinear effects.
+- Temporal compression and spectral broadening become more pronounced for reduced pulse duration.
+- Broadband supercontinuum generation becomes increasingly efficient as pulse duration decreases.
 
 ---
 
 ### Spectral Evolution
 
-Comparison of initial and output optical spectra.
+Comparison between input and output optical spectra.
 
 Observed:
+
 - Spectral broadening
 - Supercontinuum generation
 - Nonlinear frequency conversion
 
 ---
+
+## Conclusion
+
+The simulations show that decreasing the input pulse duration leads to significantly broader generated spectra.
+
+Shorter optical pulses have higher peak intensity for the same pulse energy, which enhances nonlinear optical effects such as self phase modulation (SPM). As a result, stronger frequency generation occurs and the output spectrum expands.
+
+Among the tested conditions:
+
+- **300 fs** → Narrowest spectral broadening
+- **200 fs** → Intermediate broadening
+- **100 fs** → Largest spectral broadening
+
+This demonstrates the strong dependence of supercontinuum generation efficiency on ultrashort pulse duration and nonlinear interaction strength.
 
 ### Temporal Propagation Along Waveguide
 
