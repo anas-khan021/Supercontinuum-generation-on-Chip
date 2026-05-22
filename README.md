@@ -88,7 +88,7 @@ The simulation alternates between:
 
 Comparison between input and output temporal pulse profiles.
 
-![Pulse Evolution](images/pulse_evolution.png)
+![Pulse Evolution](pulse+spectrum_good_p=0.5kW, dur=200fs.png)
 
 Observed:
 - Pulse reshaping
@@ -101,14 +101,13 @@ Observed:
 
 Comparison of initial and output optical spectra.
 
-![Spectral Evolution](images/spectral_evolution.png)
-
 Observed:
 - Spectral broadening
 - Supercontinuum generation
 - Nonlinear frequency conversion
 
 ---
+Here the characteristics of the pulse is P=0.5kW, dur=200fs
 
 ### Temporal Propagation Along Waveguide
 
