@@ -66,13 +66,13 @@ The propagation is solved numerically using the Split Step Fourier Method.
 
 The pulse evolution is computed using the nonlinear Schrödinger equation:
 
-\[
+$$
 \frac{\partial A}{\partial z}
 =
--\frac{i\beta_2}{2}\frac{\partial^2A}{\partial t^2}
+-\frac{i\beta_2}{2}\frac{\partial^2 A}{\partial t^2}
 +
-i\gamma |A|^2A
-\]
+i\gamma |A|^2 A
+$$
 
 The simulation alternates between:
 
