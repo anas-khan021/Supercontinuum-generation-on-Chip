@@ -216,6 +216,36 @@ Reducing the input pulse duration from:
 Shorter pulses possess higher peak intensity, which enhances nonlinear effects such as self phase modulation (SPM). This increases frequency generation efficiency and leads to broader supercontinuum spectra while maintaining an almost unchanged temporal envelope.
 
 These results demonstrate that shorter ultrashort pulses are more effective for broadband supercontinuum generation in integrated nonlinear waveguides.
+
+## Initial Supercontinuum Generation
+
+The output pulse generated from the mode-locked laser cavity was injected into a hybrid nonlinear propagation platform composed of Single Mode Fiber (SMF) followed by an integrated nonlinear waveguide.
+
+Nonlinear spectral broadening was successfully observed inside the waveguide due to the combined effects of:
+
+* Kerr nonlinearity
+* Self phase modulation (SPM)
+* Chromatic dispersion
+* Strong optical confinement
+
+The obtained results demonstrate the initial stages of on-chip supercontinuum generation.
+
+<p align="center">
+<img src="figures/supercontinuum_generation.png" width="750">
+</p>
+
+Although significant spectral broadening was achieved, the generated supercontinuum bandwidth was not yet fully optimized. The main limitations are believed to originate from fabrication imperfections in the integrated waveguide platform, including:
+
+* Sidewall roughness
+* Propagation losses
+* Small geometrical deviations in waveguide dimensions
+* Dispersion mismatch from the designed profile
+
+These imperfections affect nonlinear propagation and phase matching conditions, which can limit the efficiency and bandwidth of supercontinuum generation.
+
+Nevertheless, the results clearly demonstrate the feasibility of nonlinear pulse broadening in integrated photonic waveguides and provide a strong starting point for future optimization of both fabrication and dispersion engineering.
+
+
 ## Requirements
 
 Install dependencies:
