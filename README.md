@@ -231,7 +231,7 @@ Nonlinear spectral broadening was successfully observed inside the waveguide due
 The obtained results demonstrate the initial stages of on-chip supercontinuum generation.
 
 <p align="center">
-<img src="figures/supercontinuum_generation.png" width="750">
+<img src="supercontinuum_generation.png" width="750">
 </p>
 
 Although significant spectral broadening was achieved, the generated supercontinuum bandwidth was not yet fully optimized. The main limitations are believed to originate from fabrication imperfections in the integrated waveguide platform, including:
